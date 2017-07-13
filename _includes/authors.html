@@ -1,0 +1,41 @@
+<div class="read-more">
+  <div class="read-more-header">
+    <a class="read-more-btn"></a>
+  </div><!-- /.read-more-header -->
+  <div class="read-more-content author-info">
+    <div class="author-container">
+      {% if author.picture_url %}
+        <img class="author-img" src="{{site.url}}{{base.url}}/img/authors/{{author.picture_url}}" alt="{{author.name}}" />
+      {% endif %}
+        <div class="author-info">
+              <h4 class="author-meet">Meet the Author : {{author.name}}</h4>
+              <p class="author-desc"> {{author.bio}}
+             </p>
+        </div>
+    </div>
+    <div class="author-share">
+      <ul class="list-inline social-buttons">
+        {% if author.facebook %}
+          <li>
+            <a href="https://www.facebook.com/{{ author.facebook }}" target="_blank" title=facebook>
+              <i class="fa fa-facebook fa-fw"></i>
+            </a>
+          </li>
+        {% endif %}
+        {% if author.linkedin %}
+          <li>
+            <a href="https://linkedin.com/in/{{ author.linkedin }}" title="LinkedIn">
+              <i class="fa fa-linkedin fa-fw"></i>
+            </a>
+          </li>        
+          {% endif %}
+        
+      </ul>
+    </div>
+</div>
+
+  
+  
+
+    
+ 
