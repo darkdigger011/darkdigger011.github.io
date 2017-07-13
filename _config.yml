@@ -8,18 +8,18 @@
 #baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
-url: "https://mobijoker.github.io/Jekyll/"
-baseurl: "/Jekyll"
-root_url: "https://github.com/mobijoker/Jekyll"
+url: "https://darkdigger011.github.io/"
+baseurl: ""
+root_url: "https://github.com/darkdigger011/"
 
 
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: My website
+title: Jotayu.com
 
 # Short description of your site
-description: A virtual proof that name is awesome!
+description: Creative.Data Driven.Curated
 
 # --- Navigation bar options --- #
 
