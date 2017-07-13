@@ -6,7 +6,7 @@ label: tech
 
 {% for post in site.posts %}
 {% assign var_tag="tech" %}
-{% if {{var_tag}} in post.tags %}
+{% if post.tags contains var_tag %}
 <article class="list-item {% if post.link %}list-item--external{% endif %}">
 	<h3 class="post-title">
 		<a href="{% if post.link %}{{ post.link }}{% else %}{{site.baseurl}}{{ post.url }}{% endif %}">{{ post.title }}</a>
