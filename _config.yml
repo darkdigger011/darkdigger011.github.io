@@ -8,7 +8,8 @@
 #baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
-url: "https://darkdigger011.github.io/"
+url: "https://jotayu.com/"
+enforce_ssl: "jotayu.com"
 baseurl: ""
 root_url: "https://github.com/darkdigger011/"
 
