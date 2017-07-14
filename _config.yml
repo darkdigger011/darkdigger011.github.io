@@ -99,7 +99,7 @@ url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
 disqus: "jotayu"
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-101224843-3"
 
 # Google Tag Manager ID
 #gtm: ""
