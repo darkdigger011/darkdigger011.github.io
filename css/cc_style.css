@@ -236,10 +236,10 @@ figure h3 {
 }
 
 .top-header h1 {
-	font-size: 50px;
-	color: #A3A948;
-	padding: 0;
-	margin: 0;
+    font-size: 50px;
+    color: #41B0A4;
+    padding: 0;
+    margin: 0;
 }
 
 .top-header--home h1 {
@@ -247,9 +247,10 @@ figure h3 {
 }
 
 .top-header h2 {
-	font-size: 18px;
-	color: #F2C45A;
-	margin: 0;
+    font-size: 28px;
+    color: #F25A85;
+    margin: 0;
+    font-weight: 700;
 }
 .color-block {
 	font-family: Arial;
@@ -314,10 +315,10 @@ figure h3 {
 }
 
 #main-container > nav a {
-	font-size: 62px;
-	line-height: 62px;
-	letter-spacing: -8px;
-	padding: 0 14px 0 10px;
+    font-size: 50px;
+    line-height: 62px;
+    letter-spacing: 0px;
+    padding: 0 14px 0 10px;
 }
 
 
@@ -362,12 +363,13 @@ figure h3 {
 	line-height:calc(100vh - 500px);
 }
 .home #main-container nav > ul a svg {
-	display: block;
-	width: 40%;
-	fill: white;
-	opacity: 0.7;
-	margin: 0 auto 0.5em;
-	transition: 0.3s ease;
+    display: block;
+    width: 40%;
+    fill: white;
+    opacity: 0.7;
+    margin: 0 auto 0.5em;
+    transition: 0.3s ease;
+    height: 50%;
 }
 nav > ul a svg {
 	display: none;
