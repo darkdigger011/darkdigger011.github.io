@@ -1,1 +1,36 @@
+  <head>
+    <meta name="google-site-verification" content="m21vhUe8G_Oo2aTl8H0EwWMg7lS1PxInBE-8Qjr8j-c" />
+  	<meta charset="UTF-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+  	<meta name="description" content="Code and Create" />
+    
+    <title>{{ page.title }} - {{ site.title }}</title>
 
+    <link rel="shortcut icon" href="{{site.baseurl}}/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/cc_style.css?56465476" />
+    <link rel="stylesheet" href="{{site.baseurl}}/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="{{site.baseurl}}/css/bootstrap-social.css" />
+    <script src="{{site.baseurl}}/js/jquery-1.11.2.min.js"></script>
+    
+   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+    
+    {% if layout.label == 'blog'%}
+    <link rel="stylesheet" href="{{site.baseurl}}/css/cc_prism.css" />
+    {% endif %}
+    <link href='https://fonts.googleapis.com/css?family=PT+Serif:400,700' rel='stylesheet' type='text/css'>
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed/rss.xml">
+    <script>
+      /*var connectionCheckTimeout = setTimeout(function () {
+        window.isSlowConnection = true;
+        var style = document.createElement('style');
+        style.textContent = 'body{font: 17px/1.56 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"}';
+        document.head.appendChild(style);
+      }, 1000);
+      window.onload = function () {
+        console.log('fast connection');
+        clearTimeout(connectionCheckTimeout);
+      }*/
+    </script>
+
+</head>
