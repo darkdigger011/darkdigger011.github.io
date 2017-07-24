@@ -24,7 +24,12 @@ label: blog
             {{ page.tags | join: ", " }}
           {% endif %}
         </div>
-{% endif %}	
+{% endif %}
+
+	{% if page.youtube_id %}
+	{% include vid_youtube.html %}
+	{% endif %}
+	
 	
 	{% assign author = site.data.authors_cv[page.author] %}
 	{% if author %}
