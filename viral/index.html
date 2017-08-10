@@ -1,0 +1,19 @@
+---
+layout: cc_default
+title: Viral
+label: viral
+---
+
+{% for post in site.posts %}
+{% assign var_tag="viral" %}
+    {% if post.tags contains var_tag %}
+        <article class="list-item {% if post.link %}list-item--external{% endif %}">
+          <h3 class="post-title">
+            <a href="{% if post.link %}{{ post.link }}{% else %}{{site.baseurl}}{{ post.url }}{% endif %}">{{ post.title }}</a>
+          </h3>
+          <div class="post-meta">{{ post.date | date: "%B %d, %Y" }}</div>
+        </article>
+
+    {% endif %}
+
+{% endfor %}
