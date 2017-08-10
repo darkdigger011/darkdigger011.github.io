@@ -1170,7 +1170,7 @@ pre[class*=language-] {
 .sticky li{
 	list-style-type: none;
 	background-color: #f25a85;
-	color: #bf8e8e;
+	color: #000;
 	height: 30px;
 	padding: 0px;
 	margin: 0px 0px 1px 0px;
@@ -1198,6 +1198,7 @@ pre[class*=language-] {
 	float: left;
 	margin: 5px 5px;
 	margin-right: 10px;
+	height: 20px;
 }
 .sticky li p{
 	padding: 0px;
@@ -1205,6 +1206,7 @@ pre[class*=language-] {
 	text-transform: uppercase;
 	line-height: 30px;
 	color: #f25a85;
+	
 }
 
 
