@@ -357,7 +357,7 @@ figure h3 {
 }
 .home #main-container nav > ul > li {
 	flex: 1;
-	height: calc(100vh - 500px);
+	height: calc(110vh - 500px);
 }
 .home #main-container nav > ul a {
 	line-height:calc(100vh - 500px);
