@@ -1169,7 +1169,7 @@ pre[class*=language-] {
 }
 .sticky li{
 	list-style-type: none;
-	background-color: #f25a85;
+	background-color: #000;
 	color: #000;
 	height: 30px;
 	padding: 0px;
