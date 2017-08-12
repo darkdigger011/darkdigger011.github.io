@@ -1,4 +1,3 @@
-```
 ---
 layout: cc_post
 title: Self-taught AI beats Pro Gamers 
@@ -16,7 +15,6 @@ tags:
   - DotA
   - Dendi
 ---
-```
 
 In an exhibition match yesterday (11-August'17) in The International 2017, an AI developed by the team at [OpenAI](https://openai.com) has defeated [Dendi](http://wiki.teamliquid.net/dota2/Dendi) , a champion pro-gamer in 1v1 match.  In the best of 3 encounter, the AI won comprehensively by 2-0.  It has also been revealed that the bot remains undefeated against [SumaiL](http://wiki.teamliquid.net/dota2/SumaiL) (the top 1v1 player in the world) and [Arteezy](http://wiki.teamliquid.net/dota2/Arteezy) (Top overall player in the world).
 
