@@ -11,7 +11,7 @@
 url: "https://jotayu.com/"
 enforce_ssl: "jotayu.com"
 baseurl: ""
-root_url: "https://github.com/darkdigger011/"
+root_url: "https://jotayu.com/"
 
 
 # Of course don't forget to change the username and projectname to YOUR username and project
