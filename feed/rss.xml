@@ -2,14 +2,26 @@
 layout : null
 ---
 
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% for post in site.posts %}
-    {% unless post.published == false %}
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.title }}</title>
+    <link>{{ site.root_url }}/</link>
+    <atom:link href="{{ site.root_url }}/feed/rss.xml" rel="self" type="application/rss+xml" />
+    <description>{{ site.title }}</description>
+    <language>en-us</language>
+    <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+    <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+
+    {% for post in site.posts %}
     <item>
-      <loc>{{ site.url }}{{ post.url }}</loc>
-      <title> {{post.title}}</title>
+      <title>{{ post.title }}</title>
+      <link>{{ site.root_url }}{{ post.url }}</link>
+      <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+      <guid>{{ site.root_url }}{{ post.id }}</guid>
+      <description>{{ post.content | xml_escape }}</description>
     </item>
-    {% endunless %}
-  {% endfor %}
-</urlset>
+    {% endfor %}
+
+  </channel>
+</rss>
