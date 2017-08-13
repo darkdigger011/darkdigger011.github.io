@@ -19,7 +19,6 @@ layout : null
       <link>{{ site.root_url }}{{ post.url }}</link>
       <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
       <guid>{{ site.root_url }}{{ post.id }}</guid>
-      <description>{{ post.content | xml_escape }}</description>
     </item>
     {% endfor %}
 
