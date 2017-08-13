@@ -457,7 +457,7 @@ footer {
 }
 
 #me2 {
-	background-image: url({{site.baseurl}}/img/logo.svg);
+	background-image: url({{site.baseurl}}/img/logo.png);
 	background-size: contain;
 	mix-blend-mode: luminosity;
 	background-repeat: no-repeat;
