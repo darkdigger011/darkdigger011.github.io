@@ -1224,3 +1224,12 @@ pre[class*=language-] {
     color: #2a262866;
 }
 
+
+.saif_bottom_ad {
+    padding: 50px;
+    border-radius: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
