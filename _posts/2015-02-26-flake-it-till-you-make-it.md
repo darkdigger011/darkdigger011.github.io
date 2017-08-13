@@ -5,6 +5,7 @@ subtitle: Excerpt from Soulshaping by Jeff Brown
 bigimg: /img/path.jpg
 author: Saif
 categories: tech
+published: false
 tags: 
   - tech
   - games
