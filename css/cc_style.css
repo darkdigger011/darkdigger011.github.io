@@ -1292,6 +1292,6 @@ pre[class*=language-] {
 }
 
 .author_a{
-	border-bottom: 0px solid #13467ae6;
+	border-bottom: 0px solid #13467ae6 !important;
 	
 }
