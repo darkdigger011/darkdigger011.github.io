@@ -1236,41 +1236,45 @@ pre[class*=language-] {
 /* --- My Additions- Author --- */
 
 .auth_section{
-  background-color: green;
-  border: 1px solid red;
-  padding: 10px;
-  width: 90%;
-  overflow: hidden;
+	background-color: #41b0a4;
+	border: 3px solid #f25a85;
+	padding: 10px;
+	width: 100%;
+	overflow: hidden;
+
 }
 
 .auth_img{
-  float: left;
-  border-radius: 0%;
-  border:  1px solid white;
-  height: 200px;
-  margin-right: 2%;;
-  margin-top: 10%
+	float: left;
+	border-radius: 0%;
+	border: 1px solid white;
+	height: calc(100% - 30%);
+	margin-right: 2%;
+	margin-top: 5%;
+	width: calc(100% - 90%);
+
 }
 
 
 .author_header{
-  font-size: 28px;
-  font-weight: bold;
-  text-align: left;
-  margin: 5px;
+	font-size: 20px;
+	text-align: left;
+	margin: 5px;
+	color: white;
+	font-family: KG2C;
+
 }
 
 .author_info{
-  font-size: 18px;
-  text-align: left;
+	font-size: 16px;
+	text-align: left;
+	line-height: 20px;
+
 }
 
 .author_social{
     text-align: center;
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 10%;
-    margin-top:0;
+    margin:0;
 }
 
 .author_li{
@@ -1278,12 +1282,16 @@ pre[class*=language-] {
 }
 
 .author_social_img{
-    width: 32px !important;
-    height: 32px !important;
-    margin-right: 5px !important;
-    padding: 0 !important;
-    border: 0 !important;
+	width: 32px !important;
+	height: 32px !important;
+	margin-right: 30px !important;
+	padding: 0 !important;
+	border: 0 !important;
+
 
 }
 
-
+.author_a{
+	border-bottom: 0px solid #13467ae6;
+	
+}
