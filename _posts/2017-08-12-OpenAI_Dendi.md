@@ -4,7 +4,7 @@ title: Self-taught AI beats Pro Gamers
 subtitle: The end of human superiority may be nigh
 bigimg: /img/game.png
 date: 2017-08-12 11:01:00 +0600
-author:
+author: Saif
 categories: travel
 youtube_id: "wiOopO9jTZw"
 tags: 
