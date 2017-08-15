@@ -12,16 +12,16 @@
       
       {% if author.facebook %}
       <li class="author_li">
-         <a href="https://www.facebook.com/{{ author.facebook }}" target="_blank" title=facebook>
-         <img src="https://saifkabirasif.com/img/PSX_20170603_233446.jpg" alt="Website" class="author_social_img" />
+         <a class="author_a" href="https://www.facebook.com/{{ author.facebook }}" target="_blank" title=facebook>
+         <img src="{{site.url}}{{base.url}}/img/Social/fb.svg" alt="Facebook" class="author_social_img" />
           </a>
       </li>
       {% endif %}
       
       {% if author.linkedin %}
       <li class="author_li">
-         <a href="https://linkedin.com/in/{{ author.linkedin }}" title="LinkedIn">
-         <img src="https://saifkabirasif.com/img/PSX_20170603_233446.jpg" alt="Website" class="author_social_img" />
+         <a class="author_a" href="https://linkedin.com/in/{{ author.linkedin }}" title="LinkedIn">
+         <img src="{{site.url}}{{base.url}}/img/Social/linkedin.svg" alt="LinkedIn" class="author_social_img" />
            </a>
       </li>
       {% endif %}
