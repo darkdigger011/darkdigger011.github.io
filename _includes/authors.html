@@ -1,39 +1,34 @@
-<div class="read-more">
-  <div class="read-more-header">
-    <a class="read-more-btn"></a>
-  </div><!-- /.read-more-header -->
-  <div class="read-more-content author-info">
-    <div class="author-container">
-      {% if author.picture_url %}
-        <img class="author-img" src="{{site.url}}{{base.url}}/img/authors/{{author.picture_url}}" alt="{{author.name}}" />
+<div class="auth_section">
+  
+  {% if author.picture_url %}
+    <img class="auth_img" src="{{site.url}}{{base.url}}/img/authors/{{author.picture_url}}" alt="{{author.name}}" />
+  {% endif %}
+  
+  <div >
+    <p class="author_header"> Meet the Author: {{author.name}}</p>
+    <p class="author_info">{{author.bio}}</p>
+    
+    <ul class="author_social">
+      
+      {% if author.facebook %}
+      <li class="author_li">
+         <a href="https://www.facebook.com/{{ author.facebook }}" target="_blank" title=facebook>
+         <img src="https://saifkabirasif.com/img/PSX_20170603_233446.jpg" alt="Website" class="author_social_img" />
+          </a>
+      </li>
       {% endif %}
-        <div class="author-info">
-              <h4 class="author-meet">Meet the Author : {{author.name}}</h4>
-              <p class="author-desc"> {{author.bio}}
-             </p>
-        </div>
-    </div>
-    <div class="author-share">
-      <ul class="list-inline social-buttons">
-        {% if author.facebook %}
-          <li>
-            <a href="https://www.facebook.com/{{ author.facebook }}" target="_blank" title=facebook>
-              <i class="fa fa-facebook fa-fw"></i>
-            </a>
-          </li>
-        {% endif %}
-        {% if author.linkedin %}
-          <li>
-            <a href="https://linkedin.com/in/{{ author.linkedin }}" title="LinkedIn">
-              <i class="fa fa-linkedin fa-fw"></i>
-            </a>
-          </li>        
-          {% endif %}
-        
-      </ul>
-    </div>
-</div>
-
+      
+      {% if author.linkedin %}
+      <li class="author_li">
+         <a href="https://linkedin.com/in/{{ author.linkedin }}" title="LinkedIn">
+         <img src="https://saifkabirasif.com/img/PSX_20170603_233446.jpg" alt="Website" class="author_social_img" />
+           </a>
+      </li>
+      {% endif %}
+   
+    </ul>
+  </div>
+</div>   
   
   
 
