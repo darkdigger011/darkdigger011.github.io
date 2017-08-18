@@ -1063,7 +1063,9 @@ pre[class*=language-] {
     font-size: 80px;
   }
   .intro-header .post-heading h1 {
-    font-size: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #41b0a4;
   }
   .intro-header.big-img .img-desc {
     font-size: 14px;
