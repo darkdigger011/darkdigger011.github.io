@@ -49,7 +49,10 @@ h2 {
 }
 
 h3 {
-	font-size: 1.5em;
+	/*font-size: 1.5em;*/
+    font-size: 24px;
+    font-weight: bold;
+    color: #41b0a4;
 }
 
 html {
@@ -502,11 +505,11 @@ article a:HOVER {
 }
 
 .blog article a {
-	color: hsl(64, 40%, 47%); /* green */
-	border-bottom: 1px solid #e4e6ca;
+    color: rgb(65, 175, 164);
+    border-bottom: 1px solid #e4e6ca;
 }
 .blog article:not(.list-item) a:visited {
-	color: #666;
+	color: rgba(164, 168, 73, 0.21);
 }
 .blog article:not(.list-item) a:hover {
 	color: #F2C45A; /* yellow */
@@ -995,9 +998,9 @@ pre[class*=language-] {
 }
 .intro-header.big-img .page-heading,
 .intro-header.big-img .post-heading {
-  padding: 100px 0;
-  color: #FFF;
-  text-shadow: 1px 1px 3px #000;
+    padding: 100px 0;
+    color: #FFF;
+    text-shadow: 2px 2px 3px #000;
 }
 .intro-header .page-heading h1 {
   margin-top: 0;
@@ -1022,6 +1025,8 @@ pre[class*=language-] {
 .intro-header.big-img .page-heading .page-subheading,
 .intro-header.big-img .post-heading .post-subheading {
   font-weight: 400;
+  color: #f25a85;
+	
 }
 .intro-header.big-img .page-heading hr {
   box-shadow: 1px 1px 3px #000;
@@ -1047,7 +1052,8 @@ pre[class*=language-] {
     margin-top: 130px;
   }
   .intro-header.big-img {
-    margin-top: 91px;  /* Full navbar is small navbar + 20px padding on each side when expanded */
+    margin-top: 20px;
+    z-index: -20;
   }	
   .intro-header.big-img .page-heading,
   .intro-header.big-img .post-heading  {
