@@ -908,9 +908,10 @@ pre[class*=language-] {
 		/*float: left;*/
 	}
 	#main-container > nav a {
-		font-size: 35px;
-		line-height: 35px;
-		letter-spacing: -5px;
+	    font-size: 20px;
+	    line-height: 30px;
+	    letter-spacing: 0px;
+	    font-weight: bold;
 	}
 	.home #main-container nav > ul {
 		position: static;
