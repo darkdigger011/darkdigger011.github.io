@@ -1007,8 +1007,10 @@ pre[class*=language-] {
   font-size: 50px;
 }
 .intro-header .post-heading h1 {
-  margin-top: 0;
-  font-size: 35px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #41b0a4;
+    text-shadow: 1px 1px 3px #000;
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
@@ -1088,7 +1090,7 @@ pre[class*=language-] {
     display: block;
   }
   .intro-header.big-img {
-    width: 100%;
+    width: 120%;
     height: 220px;
   }
   .intro-header.big-img .page-heading,
@@ -1098,6 +1100,24 @@ pre[class*=language-] {
   .header-section.has-img .big-img {
     margin-bottom: 0;
   }  
+  .intro-header .page-heading .page-subheading, .intro-header .post-heading .post-subheading {
+    font-size: 24px;
+    line-height: 1;
+    display: block;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 10px 0 0;
+        margin-bottom: 0px;
+    font-weight: 400;
+    color: #f25a85;
+}	
+	
+  .blog #main-container > nav a {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    font-weight: bold;
+}	
+	
 } 
 @media only screen and (max-width: 325px) { 
   .intro-header.big-img {
@@ -1223,9 +1243,54 @@ pre[class*=language-] {
 
 @media only screen and (max-width: 750px){
 	article {
-	    margin-left: 5%;
-	    margin-right: 5%;
+		margin-left: -5%;
+		margin-right: 0%;
+		padding-left: 0px;
+		width: 110%;
 	}
+	
+	.saif_bottom_ad {
+	    padding: 50px;
+	    border-radius: 5px;
+	    margin-left: 0%;
+	    margin-right: 5%;
+	    margin-top: 2%;
+	    z-index: -50;
+}
+	.comment-box {
+	    margin-top: 20px;
+	    margin-left: 2%;
+	    margin-right: 5%;
+}
+	
+	.auth_img {
+	    width: calc(100% - 70%);
+	}
+
+	.author_header {
+	    font-size: 14px;
+	}
+
+	.author_info {
+	    font-size: 12px;
+		margin-bottom: 2px;
+	}
+
+
+	.author_social_img {
+	    width: 24px !important;
+	    height: 24px !important;
+	}
+
+	.blog-navigation-buttons {
+	    margin-top: 20px;
+	    overflow: hidden;
+	    margin-left: 0%;
+	    margin-right: 0%;
+	}
+
+	
+	
 }
 
 
