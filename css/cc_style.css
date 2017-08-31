@@ -1331,7 +1331,7 @@ pre[class*=language-] {
 }
 
 
-.dt_image {
+.dt_image{
     height: auto;
     width: auto;
     padding: 0px;
@@ -1381,18 +1381,16 @@ pre[class*=language-] {
 	    margin-right: 0%;
 	}
 	
-	.dt_video {
+	.dt_video{
 	    height: 250px;
 	    width: 100%;
 	}
 	
-	#DataTables_Table_0 thead th {
+	#DataTables_Table_0 thead th{
 	padding: 10px 30px;
 	}
 
 
-	
-	
 }
 
 
