@@ -491,8 +491,8 @@ article {
 	/*background: #524C42;*/
 	padding: 10px;
 	border-radius: 5px;
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: 15%;
+	margin-right: 15%;
 }
 
 article a {
@@ -582,8 +582,9 @@ article img {
 	max-width: 100%;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
-	height: 400px;
+	height: auto;
     	width: 100%;
+	max-height: 500px;
 }
 
 article p code {
