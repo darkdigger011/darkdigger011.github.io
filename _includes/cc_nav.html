@@ -4,7 +4,35 @@
 <svg viewBox="0 0 24 24">
     <path d="M7,6H17A6,6 0 0,1 23,12A6,6 0 0,1 17,18C15.22,18 13.63,17.23 12.53,16H11.47C10.37,17.23 8.78,18 7,18A6,6 0 0,1 1,12A6,6 0 0,1 7,6M6,9V11H4V13H6V15H8V13H10V11H8V9H6M15.5,12A1.5,1.5 0 0,0 14,13.5A1.5,1.5 0 0,0 15.5,15A1.5,1.5 0 0,0 17,13.5A1.5,1.5 0 0,0 15.5,12M18.5,9A1.5,1.5 0 0,0 17,10.5A1.5,1.5 0 0,0 18.5,12A1.5,1.5 0 0,0 20,10.5A1.5,1.5 0 0,0 18.5,9Z" />
 </svg>
-    games</a></li>
+    games</a>
+	<ul class="saif-ul">
+			{% assign var_count= 0 %}
+			{% for post in site.posts %}
+			{% assign var_tag="games" %}
+			{% if post.tags contains var_tag %}
+			
+				<li class="saif-li"> 
+				{% if post.bigimg %}
+				<div class="saif-img-container">
+				<img class="saif-img" src="{{site.baseurl}}{{post.bigimg}}" >
+				</div>
+				{% endif %}
+					<a class="saif-a" href="{% if post.link %}{{ post.link }}{% else %}{{site.baseurl}}{{ post.url }}{% endif %}">{{ post.title }}</a>
+				</li>
+				
+				{% assign var_count= var_count | plus: 1 %}
+				{% if var_count == 5 %}
+					{% break %}
+				{% endif %}
+
+			{% endif %}
+
+			{% endfor %}
+
+    </ul>
+	
+	
+	</li>
 
     <li class="color-block"><a href="{{site.baseurl}}/travel/" class="{% if page.name == 'lab' %}selected{% endif %}">
 <svg viewBox="0 0 128 128">
@@ -53,7 +81,34 @@
 	c0.6,1.2,2.1,1.8,3.3,1.2c1.2-0.6,1.8-2.1,1.2-3.3C75.4,53.7,70.6,37.3,89,23.1c6.7,4.2,10.7,9.5,12,15.8
 	c2.8,14.2-8.9,29.3-9.1,29.4c-0.9,1.1-0.7,2.7,0.4,3.5C92.6,72,93,72.2,93.3,72.3z"/>
       </svg>
-    travel</a></li>
+    travel</a>
+	<ul class="saif-ul">
+			{% assign var_count= 0 %}
+			{% for post in site.posts %}
+			{% assign var_tag="travel" %}
+			{% if post.tags contains var_tag %}
+			
+				<li class="saif-li"> 
+				{% if post.bigimg %}
+				<div class="saif-img-container">
+				<img class="saif-img" src="{{site.baseurl}}{{post.bigimg}}" >
+				</div>
+				{% endif %}
+					<a class="saif-a" href="{% if post.link %}{{ post.link }}{% else %}{{site.baseurl}}{{ post.url }}{% endif %}">{{ post.title }}</a>
+				</li>
+				
+				{% assign var_count= var_count | plus: 1 %}
+				{% if var_count == 5 %}
+					{% break %}
+				{% endif %}
+
+			{% endif %}
+
+			{% endfor %}
+
+    </ul>
+	
+	</li>
 
     <li class="color-block"><a href="{{site.baseurl}}/tech/" class="{% if page.name == 'blog' %}selected{% endif %}">
 <svg viewBox="0 0 512 512">
@@ -141,7 +196,38 @@
 		C256.394,289.826,250.79,295.43,243.903,295.43z"/>
 	<path d="M220.465,137.898c0,2.348,1.903,4.25,4.25,4.25h35.929c2.347,0,4.25-1.902,4.25-4.25c0-2.348-1.903-4.25-4.25-4.25h-35.929
 		C222.368,133.648,220.465,135.551,220.465,137.898z"/></svg>
-    tech</a></li>
+    tech</a>
+		<ul class="saif-ul">
+			{% assign var_count= 0 %}
+			{% for post in site.posts %}
+			{% assign var_tag="tech" %}
+			{% if post.tags contains var_tag %}
+			
+				<li class="saif-li"> 
+				{% if post.bigimg %}
+				<div class="saif-img-container">
+				<img class="saif-img" src="{{site.baseurl}}{{post.bigimg}}" >
+				</div>
+				{% endif %}
+					<a class="saif-a" href="{% if post.link %}{{ post.link }}{% else %}{{site.baseurl}}{{ post.url }}{% endif %}">{{ post.title }}</a>
+				</li>
+				
+				{% assign var_count= var_count | plus: 1 %}
+				{% if var_count == 5 %}
+					{% break %}
+				{% endif %}
+
+			{% endif %}
+
+			{% endfor %}
+
+    </ul>
+	
+	
+	
+	
+	
+	</li>
     
     <li class="color-block"><a href="{{site.baseurl}}/tutorial/" class="{% if page.name == 'blog' %}selected{% endif %}">
 <svg viewBox="0 0 512 512">
@@ -227,13 +313,66 @@
 <g>
 </g>    
 	    </svg>
-    tutorial</a></li>    
+    tutorial</a>
+		<ul class="saif-ul">
+			{% assign var_count= 0 %}
+			{% for post in site.posts %}
+			{% assign var_tag="tutorial" %}
+			{% if post.tags contains var_tag %}
+			
+				<li class="saif-li"> 
+					{% if post.bigimg %}
+					<div class="saif-img-container">
+					<img class="saif-img" src="{{site.baseurl}}{{post.bigimg}}" >
+					</div>
+					{% endif %}
+					<a class="saif-a" href="{% if post.link %}{{ post.link }}{% else %}{{site.baseurl}}{{ post.url }}{% endif %}">{{ post.title }}</a>
+				</li>
+				
+				{% assign var_count= var_count | plus: 1 %}
+				{% if var_count == 5 %}
+					{% break %}
+				{% endif %}
+
+			{% endif %}
+
+			{% endfor %}
+
+    </ul>
+	
+	</li>    
 
     <li class="color-block"><a href="{{site.baseurl}}/viral/" class="{% if page.name == 'about' %}selected{% endif %}">
     <svg  viewBox="0 0 512 512">
    <path d="M395.189,271.606l50.604,50.604L512.001,256l-66.208-66.209l-50.604,50.604H345.66l-15.226-36.758l35.022-35.022h71.564    V74.98h-93.634v71.564l-35.022,35.022l-36.758-15.226v-49.529l50.604-50.604l-66.21-66.207L189.79,66.209l50.604,50.604v49.529    l-36.758,15.226l-35.022-35.022V74.98H74.98v93.634h71.564l35.022,35.022l-15.226,36.758h-49.53l-50.604-50.604L0,256    l66.208,66.209l50.604-50.604h49.53l15.226,36.758l-35.022,35.022H74.98v93.634h93.634v-71.564l35.022-35.022l36.758,15.226    v49.529l-50.604,50.604L255.999,512l66.209-66.208l-50.604-50.604v-49.529l36.758-15.226l35.022,35.022v71.564h93.634v-93.634    h-71.564l-35.022-35.022l15.226-36.758H395.189z M445.792,233.931l22.069,22.07l-22.069,22.07l-22.07-22.07L445.792,233.931z     M374.597,106.191h31.211v31.211h-31.211V106.191z M137.402,137.403h-31.211v-31.211h31.211V137.403z M66.208,278.07L44.139,256    l22.069-22.07L88.279,256L66.208,278.07z M137.402,405.809h-31.211v-31.211h31.211V405.809z M374.597,374.597h31.211v31.211    h-31.211V374.597z M233.93,66.209l22.071-22.069l22.07,22.069L256,88.279L233.93,66.209z M278.07,445.792l-22.071,22.069    l-22.07-22.069l22.07-22.07L278.07,445.792z M300.081,300.082l-44.082,18.259l-44.082-18.259L193.659,256l18.259-44.082    l44.082-18.259l44.082,18.259L318.34,256L300.081,300.082z"/>
 	    </svg>
-    viral</a></li>
+    viral</a>
+		<ul class="saif-ul">
+			{% assign var_count= 0 %}
+			{% for post in site.posts %}
+			{% assign var_tag="viral" %}
+			{% if post.tags contains var_tag %}
+			
+				<li class="saif-li"> 
+					{% if post.bigimg %}
+					<div class="saif-img-container">
+					<img class="saif-img" src="{{site.baseurl}}{{post.bigimg}}" >
+					</div>
+					{% endif %}
+					<a class="saif-a" href="{% if post.link %}{{ post.link }}{% else %}{{site.baseurl}}{{ post.url }}{% endif %}">{{ post.title }}</a>
+				</li>
+				
+				{% assign var_count= var_count | plus: 1 %}
+				{% if var_count == 5 %}
+					{% break %}
+				{% endif %}
+
+			{% endif %}
+
+			{% endfor %}
+
+    </ul>
+	</li>
 	  
 	  
     <li class="color-block"><a href="{{site.baseurl}}/about/" class="{% if page.name == 'about' %}selected{% endif %}">
