@@ -1394,6 +1394,118 @@ pre[class*=language-] {
 
 }
 
+/* --- My Additions- Revamped --- */
+
+
+@media only screen and (min-width: 750px){
+
+	ul.saif-ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+	display: none;
+	z-index: -10;
+	background: white;
+	}
+	
+	
+	/*body.home #main-container > nav ul li.color-block:hover~ul.saif-ul,body.home #main-container > nav ul li.color-block:focus~ul.saif-ul{
+		z-index=100;
+		display: block;
+	}*/
+	
+	
+	/*body.home #main-container nav > ul a:focus,
+	body.home #main-container nav > ul a:hover {
+			opacity:0;
+			z-index:-100;
+	}
+	
+	
+
+	body.home #main-container nav > ul a:focus~ul.saif-ul,
+	body.home #main-container nav > ul a:hover~ul.saif-ul{
+			z-index=100;
+			display: block;
+			opacity:1;
+	}*/
+	
+	.home li.color-block:hover > a{
+		opacity: 0;
+	}
+	
+	
+	
+	li.color-block:hover ul.saif-ul{
+		display: block;
+		z-index: 100;
+	}
+
+	
+	.saif-img-container {
+    height: 100%;
+	}
+	
+
+	.saif-img{
+		height: 100%;
+		width: 50px;
+	}	
+	
+
+	
+	
+	
+	/*body.home #main-container > nav ul a:hover, body.home #main-container > nav ul a:focus{
+		visibility: hidden;
+		
+	}*/
+	
+	
+	
+	li.saif-li {
+    height: 19%;
+    margin-bottom: 2.5%;
+    display: flex;
+    align-items: center;
+	background: #f25a85;
+	}
+	
+	
+	a.saif-a {
+    font-size: 12px !important;
+	font-weight: bold;
+    color: white;
+    text-align: left;
+	padding: 5px !important;
+	}
+	
+	body.blog #main-container > nav ul.saif-ul{
+		display: none;
+		
+	}
+	
+	body.travel #main-container > nav ul.saif-ul, body.games #main-container > nav ul.saif-ul, body.tech #main-container > nav ul.saif-ul, body.tutorial #main-container > nav ul.saif-ul, body.viral #main-container > nav ul.saif-ul, body.we #main-container > nav ul.saif-ul
+	{
+	display: none;
+		
+	}
+
+}
+
+
+@media only screen and (max-width: 750px){
+
+	ul.saif-ul {
+   display: none;
+	}
+	
+	
+
+}
+
 
 
 
