@@ -919,10 +919,10 @@ pre[class*=language-] {
 		flex-direction: column;
 	}
 	.home #main-container nav > ul > li {
-		height: 60px;
+		/* height: 60px; */
 	}
 	.home #main-container nav > ul a {
-		line-height: 60px;
+		line-height: 10px;
 	}
 	.search-btn { display: none; }
 
@@ -1000,7 +1000,7 @@ pre[class*=language-] {
 }
 .intro-header.big-img .page-heading,
 .intro-header.big-img .post-heading {
-    padding: 100px 0;
+    padding: 100px 30px;
     color: #FFF;
     text-shadow: 2px 2px 3px #000;
 }
@@ -1499,8 +1499,67 @@ pre[class*=language-] {
 @media only screen and (max-width: 750px){
 
 	ul.saif-ul {
-   display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+	display: none;
+	z-index: -10;
+	background: white;
 	}
+	
+	
+	.home li.color-block:hover > a{
+		opacity: 0;
+	}
+	
+	
+	
+	li.color-block:hover ul.saif-ul{
+		display: block;
+		z-index: 100;
+	}
+
+	
+	.saif-img-container {
+    height: 100%;
+	}
+	
+
+	.saif-img{
+		height: 100%;
+		width: 50px;
+	}	
+	
+	li.saif-li {
+    height: 19%;
+    margin-bottom: 1%;
+    display: flex;
+    align-items: center;
+	background: #f25a85;
+	}
+	
+	
+	a.saif-a {
+    font-size: 10px !important;
+	font-weight: bold;
+    color: white;
+    text-align: left;
+	padding: 5px !important;
+	}
+	
+	body.blog #main-container > nav ul.saif-ul{
+		display: none;
+		
+	}
+	
+	body.travel #main-container > nav ul.saif-ul, body.games #main-container > nav ul.saif-ul, body.tech #main-container > nav ul.saif-ul, body.tutorial #main-container > nav ul.saif-ul, body.viral #main-container > nav ul.saif-ul, body.we #main-container > nav ul.saif-ul
+	{
+	display: none;
+		
+	}
+	
 	
 	
 
