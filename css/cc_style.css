@@ -502,6 +502,7 @@ li.saif-li{height:19%;margin-bottom:2.5%;display:flex;align-items:center;backgro
 a.saif-a{font-size:12px !important;font-weight:bold;color:white;text-align:left;padding:5px !important;}
 body.blog #main-container > nav ul.saif-ul{display:none;}
 body.travel #main-container > nav ul.saif-ul, body.games #main-container > nav ul.saif-ul, body.tech #main-container > nav ul.saif-ul, body.tutorial #main-container > nav ul.saif-ul, body.viral #main-container > nav ul.saif-ul, body.we #main-container > nav ul.saif-ul{display:none;}
+.leaflet-container{width:100% !important;}
 }
 @media only screen and (max-width:750px){ul.saif-ul{position:absolute;top:0;left:0;height:100%;width:100%;display:none;z-index:-10;background:white;}
 .home li.color-block:hover > a{opacity:0;}
@@ -512,6 +513,7 @@ li.saif-li{height:19%;margin-bottom:1%;display:flex;align-items:center;backgroun
 a.saif-a{font-size:10px !important;font-weight:bold;color:white;text-align:left;padding:5px !important;}
 body.blog #main-container > nav ul.saif-ul{display:none;}
 body.travel #main-container > nav ul.saif-ul, body.games #main-container > nav ul.saif-ul, body.tech #main-container > nav ul.saif-ul, body.tutorial #main-container > nav ul.saif-ul, body.viral #main-container > nav ul.saif-ul, body.we #main-container > nav ul.saif-ul{display:none;}
+.leaflet-container{width:100% !important;}
 }
 </div>
 </div>
