@@ -12,7 +12,11 @@ label: blog
 	<div class="post-meta">{{ page.date | date: "%B %d, %Y" }}</div>-->
 
 
-	<div class="post-content">{{ content }}</div>
+	<div class="post-content">
+
+	{{ content }}
+
+	</div>
 
 	
 	{% if page.youtube_id %}
@@ -20,18 +24,18 @@ label: blog
 	{% endif %}	
 
 	
- {% if page.tags.size > 0 %}
-        <div class="blog-tags">
-          Tags:
-          {% if site.link-tags %}
-          {% for tag in page.tags %}
-            <a href="/tag/{{ tag }}">{{ tag }}</a>
-          {% endfor %}
-          {% else %}
-            {{ page.tags | join: ", " }}
-          {% endif %}
-        </div>
-{% endif %}
+	 {% if page.tags.size > 0 %}
+			<div class="blog-tags">
+			  Tags:
+			  {% if site.link-tags %}
+			  {% for tag in page.tags %}
+				<a href="/tag/{{ tag }}">{{ tag }}</a>
+			  {% endfor %}
+			  {% else %}
+				{{ page.tags | join: ", " }}
+			  {% endif %}
+			</div>
+	{% endif %}
 
 
 	
@@ -42,6 +46,8 @@ label: blog
         {% endif %}
 
 	{% include social-share.html %}
+	
+
 	
 </article> 
 
@@ -57,13 +63,21 @@ label: blog
 </div>
 
 
+
 <div class="saif_bottom_ad">
 	{% include cc_ad_1.html %}
 </div>
 
+
+{% include recent_posts_horiz.html %}
+
+
 <div class="saif_bottom_ad">
 	{% include ad_amaz_1.html %}
 </div>
+
+
+
 
 
 <div class="comment-box">
