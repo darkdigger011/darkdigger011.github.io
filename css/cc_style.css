@@ -1501,7 +1501,7 @@ pre[class*=language-] {
 	.recent-posts {
 
     position: sticky;
-    top: 60px;
+    top: 240px;
     float: right;
     width: 210px;
     z-index: 0;
