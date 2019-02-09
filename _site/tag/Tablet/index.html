@@ -61,7 +61,7 @@
   
 
    
-  <meta property="og:description" content="Posts Tagged &amp;ldquo;Tablet&amp;rdquo;: Phone Height in Time (August'17 update) Larger Chart for Clarity Posted on August 19, 2017 Scatter Diagram plotting Device Heights over the Years Hover over any point to get the device name, brand, height and release month Zoom by holding the left mouse button and selecting an...">
+  <meta property="og:description" content="{{page.title}}: {% for post in site.posts %} {% for tag in post.tags %} {% if tag == page.tag %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} Posted on {{ post.date | date: &quot;%B %-d, %Y&quot; }} {{ post.content | strip_html | xml_escape | truncatewords:...">
   
 
 
@@ -87,7 +87,7 @@
   
 
   
-  <meta name="twitter:description" content="Posts Tagged &amp;ldquo;Tablet&amp;rdquo;: Phone Height in Time (August'17 update) Larger Chart for Clarity Posted on August 19, 2017 Scatter Diagram plotting Device Heights over the Years Hover over any point to get the device name, brand, height and release month Zoom by holding the left mouse button and selecting an...">
+  <meta name="twitter:description" content="{{page.title}}: {% for post in site.posts %} {% for tag in post.tags %} {% if tag == page.tag %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} Posted on {{ post.date | date: &quot;%B %-d, %Y&quot; }} {{ post.content | strip_html | xml_escape | truncatewords:...">
   
 
   
@@ -214,6 +214,24 @@
   <h2 class="post_title">Posts Tagged &ldquo;Tablet&rdquo;:</h2>
 
 <div class="posts-list">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   

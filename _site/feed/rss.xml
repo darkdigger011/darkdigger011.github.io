@@ -6,9 +6,16 @@
     <atom:link href="https://jotayu.com//feed/rss.xml" rel="self" type="application/rss+xml" />
     <description>Jotayu.com</description>
     <language>en-us</language>
-    <pubDate>Sat, 09 Feb 2019 06:50:45 +0000</pubDate>
-    <lastBuildDate>Sat, 09 Feb 2019 06:50:45 +0000</lastBuildDate>
+    <pubDate>Sat, 09 Feb 2019 07:01:29 +0000</pubDate>
+    <lastBuildDate>Sat, 09 Feb 2019 07:01:29 +0000</lastBuildDate>
 
+    
+    <item>
+      <title>Visualizing Bangladesh #02</title>
+      <link>https://jotayu.com//tech/2019/02/09/Viz_BD_GDP/</link>
+      <pubDate>Sat, 09 Feb 2019 10:01:00 +0600</pubDate>
+      <guid>https://jotayu.com//tech/2019/02/09/Viz_BD_GDP</guid>
+    </item>
     
     <item>
       <title>Resolution Wars: Q4 2018 Update</title>
