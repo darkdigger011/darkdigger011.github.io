@@ -547,7 +547,7 @@ article .post-meta {
 article .post-content {
 	margin-top: 2em;
 	display: inline-block;
-	width: 100%;
+	width: 95%;
 }
 article .post-summary {}
 
@@ -1287,9 +1287,9 @@ pre[class*=language-] {
     float: left;
     border-radius: 0%;
     border: 1px solid white;
-    height: calc(100% - 20%);
+    height: auto;
     margin-right: 2%;
-    width: calc(100% - 90%);
+    width: auto;
 }
 
 
