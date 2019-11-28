@@ -5,7 +5,7 @@ subtitle: "Population Mix over the Years"
 image: "/img/Pop_Mix-2019-11-26.gif"
 bigimg: "/img/Pop_Mix-2019-11-26.gif"
 share-img: "/img/Pop_Mix-2019-11-26.gif"
-date: 2019-11-28 05:53:00 +0600
+date: 2019-11-28 18:53:00 +0600
 author: Saif
 categories: tech
 published: true
