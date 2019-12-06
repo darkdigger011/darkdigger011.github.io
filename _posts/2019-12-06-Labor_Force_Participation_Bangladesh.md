@@ -5,7 +5,7 @@ subtitle: "Labor force participation by gender over the years"
 image: "/img/Labor_Force_Particpation_Enhanced_2019-12-06_2.gif"
 bigimg: "/img/Labor_Force_Particpation_Enhanced_2019-12-06_2.gif"
 share-img: "/img/Labor_Force_Particpation_Enhanced_2019-12-06_2.gif"
-date: 2019-12-06 18:53:00 +0600
+date: 2019-12-05 18:53:00 +0600
 author: Saif
 categories: tech
 published: true
