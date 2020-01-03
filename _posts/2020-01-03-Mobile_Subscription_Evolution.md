@@ -10,6 +10,7 @@ author: Saif
 categories: tech
 published: true
 tags:
+  - tech
   - mobile
   - subscription
   - LTE
@@ -23,6 +24,7 @@ tags:
 
     article img {
     max-height: 100% !important;
+    width: 100% !important;
 
 }
 </style>
