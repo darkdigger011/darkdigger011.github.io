@@ -24,7 +24,6 @@ tags:
 
     article img {
     max-height: 100% !important;
-    width: 100% !important;
 
 }
 </style>
