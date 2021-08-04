@@ -6,6 +6,10 @@ title: CSS Stylesheet
 	box-sizing: border-box;
 }
 
+pre code {
+    white-space: pre !important;
+}
+
 article,
 aside,
 details,
