@@ -15,9 +15,9 @@ layout : null
 
     {% for post in site.posts %}
     <item>
-      <title>{{ post.title }}</title>
+      <title>{{ post.title | xml_escape }}</title>
       <link>{{ site.root_url }}{{ post.url }}</link>
-      <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
       <guid>{{ site.root_url }}{{ post.id }}</guid>
     </item>
     {% endfor %}
